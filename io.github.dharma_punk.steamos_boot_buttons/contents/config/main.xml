@@ -38,10 +38,10 @@
       <default>0</default>
     </entry>
     <entry name="customDesktopCommand" type="String">
-      <default>steamos-session-select plasma-x11-persistent</default>
+      <default>steamosctl set-default-login-mode desktop</default>
     </entry>
     <entry name="customGameCommand" type="String">
-      <default>steamos-session-select gamescope</default>
+      <default>steamosctl set-default-login-mode game</default>
     </entry>
     <entry name="showRebootButton" type="Bool">
       <default>false</default>
